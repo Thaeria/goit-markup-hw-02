@@ -22,7 +22,7 @@ ul {
     font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
-        line-height: 1.16667;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
@@ -42,13 +42,19 @@ ul {
      letter-spacing: 0.02em;
      color: #2e2f42;
 }
-.header-adress{
+.header-adress-item {
      font-weight: 400;
      font-size: 16px;
      line-height: 1.5;
      letter-spacing: 0.02em;
      color: #434455;
-     font-style:normal
+     font-style:normal;
+}
+.header-adress-item:hover {
+     color: #404bbf;
+}
+.header-adress-item:focus {
+     color: #404bbf;
 }
 .main-section-h1 {
      font-weight: 700;
@@ -70,16 +76,6 @@ ul {
      line-height: 1.5;
      letter-spacing: 0.04em;
      color: #fff;
-     display: flex;
-     align-items: flex-start;
-     justify-content: flex-start;
-     flex-direction: row;
-     gap: 10px;
-     border-radius: 4px;
-     padding: 16px 32px;
-     width: 169px;
-     height: 56px;
-     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
      background: #4d5ae5;
      cursor: pointer;
 }
@@ -106,16 +102,6 @@ ul {
     background-color: #F4F4FD;
 }
 .main-team-list {
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     flex-direction: column;
-     gap: 32px;
-     border-radius: 0 0 4px 4px;
-     padding: 0px 0px 32px 0px;
-     width: 264px;
-     height: 380px;
-     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
      background: #FFFFFF;
 }
 .main-team {
@@ -145,10 +131,11 @@ ul {
 .main-portfolio {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 .main-portfolio-function {
      font-weight: 500;
@@ -164,7 +151,6 @@ ul {
      letter-spacing: 0.02em;
      color: #434455;
 }
-
 .footer {
      background-color: #2E2F42;
      width: 1440px;
@@ -183,7 +169,7 @@ ul {
     font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
-        line-height: 1.16667;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;

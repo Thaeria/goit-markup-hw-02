@@ -16,7 +16,7 @@ ul {
         line-height: 1.16667;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-         color: #2e2f42;
+        color: #2e2f42;
 }   
 .header-logo {
     font-family: "Raleway", sans-serif;
@@ -30,11 +30,13 @@ ul {
 .main-values {
     display: none;
 }
-.header-menu-item {
-    color:#2e2f42;
-    hover:#2e2f42;
-    focus: #404bbf;
-}
+.header-menu-item:hover: {
+    color: #2e2f42;
+ }
+.header-menu-item:focus: {
+    color: #404bbf;
+ }
+
 .header-menu-list {
      font-weight: 500;
      font-size: 16px;
@@ -66,8 +68,6 @@ ul {
 }
 .main-section{
      background: #2E2F42;
-     width: 1440px;
-     height: 600px;
 }
 .main-section-button {
      font-family: "Roboto", sans-serif;
@@ -153,8 +153,6 @@ ul {
 }
 .footer {
      background-color: #2E2F42;
-     width: 1440px;
-     height: 312px;
 }
 .footer-logo-web {
     font-family: "Raleway", sans-serif;

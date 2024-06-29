@@ -3,12 +3,6 @@ body {
     background-color: #FFFFFF;
     color: #434455;
 }
-.link {
-    focus: teal;
-}
-.link:hover {
-    color: tomato;
-}
 a {
     text-decoration: none;
 }
@@ -16,19 +10,30 @@ ul {
     list-style-type: none;
 }
 .header-logo-web {
-    color: #4D5AE5;
-}
+    font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.16667;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+         color: #2e2f42;
+}   
 .header-logo {
-     font-family: "Raleway", sans-serif;
-     font-weight: 700;
-     font-size: 18px;
-     line-height: 1.16;
-     letter-spacing: 0.03em;
-     text-transform: uppercase;
-     color: #2e2f42;
+    font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.16667;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4d5ae5;
 }
 .main-values {
     display: none;
+}
+.header-menu-item {
+    color:#2e2f42;
+    hover:#2e2f42;
+    focus: #404bbf;
 }
 .header-menu-list {
      font-weight: 500;
@@ -58,9 +63,6 @@ ul {
      width: 1440px;
      height: 600px;
 }
-.c-button {
-    cursor: pointer;
-}
 .main-section-button {
      font-family: "Roboto", sans-serif;
      font-weight: 500;
@@ -79,6 +81,13 @@ ul {
      height: 56px;
      box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
      background: #4d5ae5;
+     cursor: pointer;
+}
+.main-section-button:hover {
+     background-color: #404BBF;
+}
+.main-section-button:focus {
+    background-color: #404BBF;
 }
 .main-values-item {
      font-weight: 500;
@@ -93,6 +102,22 @@ ul {
      letter-spacing: 0.02em;
      color: #434455;
 }
+.section-team {
+    background-color: #F4F4FD;
+}
+.main-team-list {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     gap: 32px;
+     border-radius: 0 0 4px 4px;
+     padding: 0px 0px 32px 0px;
+     width: 264px;
+     height: 380px;
+     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+     background: #FFFFFF;
+}
 .main-team {
      font-weight: 700;
      line-height: 1.11;
@@ -100,6 +125,7 @@ ul {
      text-align: center;
      color: #2e2f42;
      font-size: 36px;
+    text-transform: capitalize;
 }
 .main-team-name{
      font-weight: 500;
@@ -115,6 +141,14 @@ ul {
  letter-spacing: 0.02em;
  text-align: center;
  color: #434455;
+}
+.main-portfolio {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
 }
 .main-portfolio-function {
      font-weight: 500;
@@ -136,27 +170,32 @@ ul {
      width: 1440px;
      height: 312px;
 }
-.footer-logo-web{
-     color: #4D5AE5;
+.footer-logo-web {
+    font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #f4f4fd;
 }
-
 .footer-logo {
     font-family: "Raleway", sans-serif;
-     font-weight: 700;
-     font-size: 18px;
-     line-height: 1.16667;
-     letter-spacing: 0.03em;
-     text-transform: uppercase;
-     color: #f4f4fd;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.16667;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4d5ae5;
 }
 .footer-text {
-     font-weight: 400;
-     font-size: 16px;
-     line-height: 1.5;
-     letter-spacing: 0.02em;
-     color: #f4f4fd;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
 }
-
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document

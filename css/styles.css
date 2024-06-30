@@ -13,7 +13,7 @@ ul {
      font-family: "Raleway", sans-serif;
      font-weight: 700;
      font-size: 18px;
-     line-height: 1.16667;
+     line-height: 1.17;
      letter-spacing: 0.03em;
      text-transform: uppercase;
      color: #2e2f42;
@@ -44,14 +44,6 @@ ul {
 .header-menu-link:focus {
      color: #404bbf;
  }
-
-.header-menu-list {
-     font-weight: 500;
-     font-size: 16px;
-     line-height: 1.5;
-     letter-spacing: 0.02em;
-     color: #2e2f42;
-}
 .address {
      font-style: normal;
      font-size: 0;

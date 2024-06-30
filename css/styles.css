@@ -77,8 +77,9 @@ ul {
      text-align: center;
      color: #fff;
 }
-.main-section{
+.main-section {
      background: #2E2F42;
+     font-size: 0;
 }
 .main-section-button {
      font-family: "Roboto", sans-serif;
@@ -119,6 +120,7 @@ ul {
      font-weight: 700;
      line-height: 1.11;
      letter-spacing: 0.02em;
+     text-align: center;
      color: #2e2f42;
      font-size: 36px;
      text-transform: capitalize;
@@ -141,6 +143,7 @@ ul {
      font-size: 36px;
      line-height: 1.11;
      letter-spacing: 0.02em;
+     text-align: center;
      color: #2e2f42;
      text-transform: capitalize;
 }

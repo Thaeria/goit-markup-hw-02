@@ -64,13 +64,16 @@ ul {
      color: #434455;
      font-style: normal;
 }
-.address-item:hover {
-     color: #404bbf;
+.address-link {
+     color: #434455;
 }
-.address-item:focus {
-     color: #404bbf;
+.address-link:hover {
+     color: #404bbf
 }
-.main-section-h1 {
+.address-link:focus {
+     color: #404bbf 
+}
+.main-section-h {
      font-weight: 700;
      font-size: 56px;
      line-height: 1.07;

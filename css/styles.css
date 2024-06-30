@@ -30,7 +30,8 @@ ul {
 .main-values {
     display: none;
 }
-.header-menu-link {
+.header-menu-link,
+.header-menu-item {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -118,7 +119,6 @@ ul {
      font-weight: 700;
      line-height: 1.11;
      letter-spacing: 0.02em;
-     text-align: center;
      color: #2e2f42;
      font-size: 36px;
     text-transform: capitalize;
@@ -128,14 +128,12 @@ ul {
      font-size: 20px;
      line-height: 1.2;
      letter-spacing: 0.02em;
-     text-align: center;
      color: #2e2f42;
 }
 .main-team-name-description {
  font-size: 16px;
  line-height: 1.5;
  letter-spacing: 0.02em;
- text-align: center;
  color: #434455;
 }
 .main-portfolio {
@@ -143,7 +141,6 @@ ul {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
 }
